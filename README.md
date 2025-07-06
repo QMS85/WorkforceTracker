@@ -1,5 +1,5 @@
 
-# HR Dashboard - Employee Time Tracking & Scheduling System
+# Workforce Tracker HR Dashboard - Employee Time Tracking & Scheduling System
 
 ## 📋 Overview
 
