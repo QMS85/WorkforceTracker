@@ -108,13 +108,7 @@ The application will be available at `http://localhost:5000`
 4. Select "JSON" format
 5. Download the key file
 
-### Step 4: Configure Replit Secrets
-
-1. In your Replit project, go to the Secrets tab
-2. Create a new secret called `GOOGLE_SHEETS_CREDENTIALS`
-3. Copy the entire contents of the downloaded JSON file and paste as the value
-
-### Step 5: Update Google Sheets Service
+### Step 4: Update Google Sheets Service
 
 Replace the mock implementation in `server/google-sheets.ts` with the real implementation:
 
@@ -291,14 +285,6 @@ npm run db:push
 
 ## 🌐 Deployment
 
-### Replit Deployment
-1. Fork this project on Replit
-2. Set up your environment variables in Replit Secrets
-3. Use the Deploy button in Replit
-4. Configure with these settings:
-   - **Build command**: `npm run build`
-   - **Run command**: `npm start`
-
 ### Manual Deployment
 1. Build the application: `npm run build`
 2. Set environment variables on your hosting platform
@@ -346,7 +332,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For support and questions:
 - Create an issue in the repository
-- Check the documentation
 - Review the improvement suggestions above
 
 ---
